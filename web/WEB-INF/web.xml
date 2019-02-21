@@ -13,6 +13,15 @@
         <url-pattern>/main</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>ru.example.RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/requests</url-pattern>
+    </servlet-mapping>
+
     <filter>
         <filter-name>FilterMain</filter-name>
         <filter-class>ru.example.FilterMain</filter-class>
